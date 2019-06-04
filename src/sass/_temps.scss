@@ -1,0 +1,46 @@
+.tmp-flight-row-bgimg {
+    height: 100px;
+    background-color: $color-white;
+    background-image: url('/images/temp/flight-row-details.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tmp-flight-row{
+    max-height: 148px;
+    display: flex;
+    justify-content: space-between;
+
+    
+    .flight-row-left, .flight-row-middle, .flight-row-right{
+        
+        background-color: $color-white;
+        img {
+            max-width: 100%;
+        }
+    }
+    
+    .flight-row-left {
+        text-align: left;
+        padding: 1rem;
+
+        .image-container{
+            border: 1px solid $color-gray2;
+            width: 120px;
+            height: 100%;
+            background-size: contain;
+            background-repeat:   no-repeat;
+            background-position: center center; 
+        }
+    }
+
+    .flight-row-middle {
+        text-align: center;
+    }
+
+    .flight-row-right {
+        text-align: right;
+        cursor: pointer;
+    }
+}
