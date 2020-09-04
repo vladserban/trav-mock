@@ -23,7 +23,7 @@
     "compile:sass": "node-sass src/sass/main.scss src/App.css -w"
   },
   "devDependencies": {
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "react-scripts-plugin-no-minify": "^0.3.2"
   }
 }
